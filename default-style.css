@@ -45,7 +45,7 @@ ul.show-navigation li a {
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
+
 ul.show-navigation li a:hover {
   background-color: #0077CD;
 }
