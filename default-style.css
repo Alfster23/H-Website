@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.Title {
+	background-color: #0077CD;
+	width: auto;
+	height: auto;
+}
+
+
+h1 {
+	color: #0077CD;
+	font-family: Calibri, sans-serif;
+}
+
+
+body {
+	margin: 0;
+	margin-top: 0;
+}
+
+ul.show-navigation {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+ul.show-navigation li {
+  float: left;
+	width: 225px;
+	font-family: Calibri, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+}
+
+ul.show-navigation li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+ul.show-navigation li a:hover {
+  background-color: #0077CD;
+}
+
+
+.logo {
+	width: 400px
+}
+
+
+.main {
+	margin: 25px;
+}
+
+
+@media only screen and (min-device-width: 480px) {
+      .show-navigation {
+        display: block;
+      }
+      .hide-navigation {
+        display: none;
+      }
+    }
+
+ @media only screen and (max-device-width: 481px) {
+      .show-navigation {
+        display: none;
+      }
+      .hide-navigation {
+        display: block;
+      }
+    }
