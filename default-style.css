@@ -2,13 +2,15 @@
 /* CSS Document */
 
 
-.Title {
+.title {
 	background-color: #0077CD;
 	width: auto;
 	height: auto;
 }
 
-.navbar {
+div.navbar {
+	width: auto;
+	height: auto;
 	position: -webkit-sticky;
 	position: sticky;
 	top: 0;
@@ -44,13 +46,13 @@ body {
 
 /* All styles for DESKTOP NAVIGATION */
 
+
 ul.desktop-navigation {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #333;
-	position: sticky;
 }
 
 
