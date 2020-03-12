@@ -8,10 +8,32 @@
 	height: auto;
 }
 
+.navbar {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+
+
+
 
 h1 {
 	color: #0077CD;
-	font-family: Calibri, sans-serif;
+	font-family: "lato", sans-serif;
+}
+
+p {
+	color: #000000;
+	font-family: "lato", sans-serif;
+}
+
+a {
+	color: #0077CD;
+	font-style: bold;
+}
+
+a:hover {
+	color: #0046FF;
 }
 
 
@@ -20,16 +42,19 @@ body {
 	margin-top: 0;
 }
 
-ul.show-navigation {
+/* All styles for DESKTOP NAVIGATION */
+
+ul.desktop-navigation {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #333;
+	position: sticky;
 }
 
 
-ul.show-navigation li {
+ul.desktop-navigation li {
   float: left;
 	width: 225px;
 	font-family: Calibri, sans-serif;
@@ -37,7 +62,7 @@ ul.show-navigation li {
 	font-variant: normal;
 }
 
-ul.show-navigation li a {
+ul.desktop-navigation li a {
   display: block;
   color: white;
   text-align: center;
@@ -46,9 +71,66 @@ ul.show-navigation li a {
 }
 
 
-ul.show-navigation li a:hover {
+ul.desktop-navigation li a:hover {
   background-color: #0077CD;
 }
+
+/* End DESKTOP NAVIGATION */
+
+
+/* Start MOBILE NAVIGATION */
+
+
+
+.mobile-navigation {
+	float: right;
+	margin-top: 150px;
+}
+
+.dropbtn {
+	background-color: #4CAF50;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+}
+
+
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content{
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+
+
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+
+/* End MOBILE NAVIGATION */
 
 
 .logo {
@@ -61,20 +143,21 @@ ul.show-navigation li a:hover {
 }
 
 
-@media only screen and (min-device-width: 480px) {
-      .show-navigation {
+
+@media only screen and (min-device-width: 1350px) {
+      .desktop-navigation {
         display: block;
       }
-      .hide-navigation {
+      .mobile-navigation {
         display: none;
       }
     }
 
- @media only screen and (max-device-width: 481px) {
-      .show-navigation {
+ @media only screen and (max-device-width: 1351px) {
+      .desktop-navigation {
         display: none;
       }
-      .hide-navigation {
+      .mobile-navigation {
         display: block;
       }
     }
