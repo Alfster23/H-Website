@@ -14,6 +14,7 @@ div.navbar {
 	position: -webkit-sticky;
 	position: sticky;
 	top: 0;
+	z-index: 1;
 }
 
 
@@ -153,6 +154,9 @@ ul.desktop-navigation li a:hover {
       .mobile-navigation {
         display: none;
       }
+			.mobile-content{
+				display: none;
+			}
     }
 
  @media only screen and (max-device-width: 1351px) {
@@ -162,4 +166,7 @@ ul.desktop-navigation li a:hover {
       .mobile-navigation {
         display: block;
       }
+			.mobile-content {
+				display: block;
+			}
     }
