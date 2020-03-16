@@ -151,6 +151,9 @@ ul.desktop-navigation li a:hover {
       .desktop-navigation {
         display: block;
       }
+			.desktop-content {
+				display: block;
+			}
       .mobile-navigation {
         display: none;
       }
@@ -163,6 +166,9 @@ ul.desktop-navigation li a:hover {
       .desktop-navigation {
         display: none;
       }
+			.desktop-content {
+				display: none;
+			}
       .mobile-navigation {
         display: block;
       }
