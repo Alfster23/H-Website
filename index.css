@@ -80,3 +80,12 @@ slide p {
 }
 
 /* End Slideshow */
+
+
+/*overslide*/
+
+#overslide {
+  float: left;
+  width: 400px;
+  opacity: 0.8;
+}
