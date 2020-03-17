@@ -146,8 +146,27 @@ ul.desktop-navigation li a:hover {
 }
 
 
-.footer {
-	width: 100%
+.footer.map {
+	width: 100;
+}
+
+.footer #footer-text {
+	margin-left: 10px;
+}
+
+#quick-links {
+	width: 100%;
+	height: 300px;
+	background-color: #333;
+	margin-top: 0;
+}
+
+#quick-links h1 {
+	color: white;
+	padding-left: 15px;
+	padding-top: 15px;
+	float: left;
+	margin-top: 0;
 }
 
 
