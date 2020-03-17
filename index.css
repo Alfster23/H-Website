@@ -40,7 +40,7 @@ slide:nth-child(1){
 slide:nth-child(2){
   left: 100%;
  animation-delay: 6.5s;
- background-image: url("Horsham-2.jpg");
+ background-image: url("Horsham-5.jpg");
  background-size: cover;
  background-position: center;
 }
@@ -56,7 +56,7 @@ slide:nth-child(3){
 slide:nth-child(4){
  left: 100%;
  animation-delay: 21.5s;
- background-image: url("hair.png");
+ background-image: url("Horsham-2.jpg");
  background-size: cover;
  background-position: center;
 }
@@ -89,10 +89,13 @@ slide p {
   float: left;
   width: 600px;
   opacity: 0.8;
-  background-color: white;
+  background-color: none;
   font-family: "Lato", sans-serif;
+  color: white;
+  background-color: #333;
+  text-align: left;
   padding: 10px 0 0 20px;
-  font-size: 50px;
+  font-size: 40px;
   height: 590px;
 }
 
