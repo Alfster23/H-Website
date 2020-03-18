@@ -100,6 +100,13 @@ slide p {
 }
 
 
+
+/* Start Modal popup */
+
+
+/* End Modal popup */
+
+
 @media only screen and (min-device-width: 1350px) {
       .slideshow #overslide {
         display: block;
