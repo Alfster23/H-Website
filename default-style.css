@@ -157,6 +157,7 @@ ul.desktop-navigation li a:hover {
 	margin-left: 10px;
 }
 
+
 #quick-links {
 	width: 100%;
 	height: 300px;
@@ -172,6 +173,10 @@ ul.desktop-navigation li a:hover {
 	margin-top: 0;
 }
 
+#gitimg {
+	background-color: #333;
+	padding-bottom: 20px;
+}
 
 
 @media only screen and (min-device-width: 1350px) {
