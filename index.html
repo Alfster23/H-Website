@@ -94,91 +94,47 @@ function resize()
 
 <div class="desktop-content"> <!-- DESKTOP CONTENT -->
 
-<!---------------------------------------------------------------------------------------------------------------->
+<div class="home-map">
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body {font-family: Arial, Helvetica, sans-serif;}
+<h1>Find Horsham on the map:</h1>
 
-/* The Modal (background) */
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-}
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20057.36127906865!2d-0.33771865688385283!3d51.068408859983066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4875930bdbd6edbf%3A0xd07b2d1bec20416b!2sHorsham!5e0!3m2!1sen!2suk!4v1584439356029!5m2!1sen!2suk" width="100%"; height="600px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
-/* Modal Content */
-.modal-content {
-  background-color: #fefefe;
-  margin: auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%;
-}
+</div>
+<!-- Start MODAL -->
 
-/* The Close Button */
-.close {
-  color: #aaaaaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
+<div id="fact-bar">
 
-.close:hover,
-.close:focus {
-  color: #000;
-  text-decoration: none;
-  cursor: pointer;
-}
-</style>
-</head>
-<body>
+<button id="fbtn">Click here to discover a fact about Horsham</button>
 
-<h2>Modal Example</h2>
 
-<!-- Trigger/Open The Modal -->
-<button id="myBtn">Open Modal</button>
-
-<!-- The Modal -->
-<div id="myModal" class="modal">
+<div id="fmodal" class="modal">
 
   <!-- Modal content -->
   <div class="modal-content">
     <span class="close">&times;</span>
-    <p>Some text in the Modal..</p>
+    <h1>A fact about Horsham:</h1>
+    <p>Horsham holds the UK record for the heaviest hailstone ever to fall. On 5 September 1958, a hailstone weighing 140g (4.9 oz) landed in the town. It was similar in size to a tennis ball and impact speeds have been calculated to be 100 m/s (224 mph).</p>
   </div>
 
 </div>
 
 <script>
-// Get the modal
-var modal = document.getElementById("myModal");
 
-// Get the button that opens the modal
-var btn = document.getElementById("myBtn");
+var modal = document.getElementById("fmodal");
 
-// Get the <span> element that closes the modal
+var btn = document.getElementById("fbtn");
+
 var span = document.getElementsByClassName("close")[0];
 
-// When the user clicks the button, open the modal
 btn.onclick = function() {
   modal.style.display = "block";
 }
 
-// When the user clicks on <span> (x), close the modal
 span.onclick = function() {
   modal.style.display = "none";
 }
 
-// When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";
@@ -186,9 +142,12 @@ window.onclick = function(event) {
 }
 </script>
 
+</div>
+
+<!-- End MODAL -->
 
 
-<!---------------------------------------------------------------------------------------------------------------->
+
 
 
 
@@ -295,7 +254,7 @@ Welcome to Horsham, a market town on the South Coast of England. Horsham offers 
 
 <div class="map">
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20057.36127906865!2d-0.33771865688385283!3d51.068408859983066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4875930bdbd6edbf%3A0xd07b2d1bec20416b!2sHorsham!5e0!3m2!1sen!2suk!4v1584439356029!5m2!1sen!2suk" width="100%"; height="200px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20057.36127906865!2d-0.33771865688385283!3d51.068408859983066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4875930bdbd6edbf%3A0xd07b2d1bec20416b!2sHorsham!5e0!3m2!1sen!2suk!4v1584439356029!5m2!1sen!2suk" width="100%"; height="280px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
 </div>
 

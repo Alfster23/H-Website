@@ -22,6 +22,7 @@ div.navbar {
 }
 
 
+
 h1 {
 	color: #0077CD;
 	font-family: "lato", sans-serif;
@@ -149,7 +150,7 @@ ul.desktop-navigation li a:hover {
 
 
 .footer.map {
-	width: 100;
+	width: 100%;
 }
 
 .footer #footer-text {
