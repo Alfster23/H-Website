@@ -139,6 +139,86 @@ ul.desktop-navigation li a:hover {
 /* End MOBILE NAVIGATION */
 
 
+
+
+/* Start Modal popup */
+
+
+.quick-links #fbtn {
+  background-color: #0077CD;
+  border: none;
+  color: #ffffff;
+  padding: 12px 20px 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin-left: 50px;
+  z-index: inherit;
+}
+
+
+.quick-links .modal {
+  display: none;
+  position: fixed;
+  z-index: 2;
+  padding-top: 200px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: none;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+
+/* Modal Content */
+.quick-links .modal-content {
+  background-color: #b3b3b3;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+
+.quick-links .modal-content h1 {
+	color: #0077CD;
+  margin: none;
+  width: auto;
+	display: inline-block;
+
+}
+
+
+.quick-links .modal-content p {
+  background-color: #b3b3b3;
+  margin-left: 10px;
+  width: auto;
+	display: inline-block;
+	text-align: left;
+}
+
+
+/* The Close Button */
+.quick-links .close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.quick-links .close:hover,
+.quick-links .close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+/* End Modal popup */
+
+
 .logo {
 	width: 400px
 }
@@ -158,14 +238,14 @@ ul.desktop-navigation li a:hover {
 }
 
 
-#quick-links {
+.quick-links {
 	width: 100%;
 	height: 300px;
 	background-color: #333;
 	margin-top: 0;
 }
 
-#quick-links h1 {
+.quick-links h1 {
 	color: white;
 	padding-left: 15px;
 	padding-top: 15px;
@@ -176,6 +256,7 @@ ul.desktop-navigation li a:hover {
 #gitimg {
 	background-color: #333;
 	padding-bottom: 20px;
+	padding-top: 40px;
 }
 
 

@@ -9,7 +9,6 @@
 
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
 <title>Horsham - Home</title>
@@ -101,52 +100,6 @@ function resize()
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20057.36127906865!2d-0.33771865688385283!3d51.068408859983066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4875930bdbd6edbf%3A0xd07b2d1bec20416b!2sHorsham!5e0!3m2!1sen!2suk!4v1584439356029!5m2!1sen!2suk" width="100%"; height="600px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
 </div>
-<!-- Start MODAL -->
-
-<div id="fact-bar">
-
-<button id="fbtn">Click here to discover a fact about Horsham</button>
-
-
-<div id="fmodal" class="modal">
-
-  <!-- Modal content -->
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <h1>A fact about Horsham:</h1>
-    <p>Horsham holds the UK record for the heaviest hailstone ever to fall. On 5 September 1958, a hailstone weighing 140g (4.9 oz) landed in the town. It was similar in size to a tennis ball and impact speeds have been calculated to be 100 m/s (224 mph).</p>
-  </div>
-
-</div>
-
-<script>
-
-var modal = document.getElementById("fmodal");
-
-var btn = document.getElementById("fbtn");
-
-var span = document.getElementsByClassName("close")[0];
-
-btn.onclick = function() {
-  modal.style.display = "block";
-}
-
-span.onclick = function() {
-  modal.style.display = "none";
-}
-
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
-</script>
-
-</div>
-
-<!-- End MODAL -->
-
-
 
 
 
@@ -258,17 +211,69 @@ Welcome to Horsham, a market town on the South Coast of England. Horsham offers 
 
 </div>
 
-<div id="quick-links">
+<div class="quick-links">
 
-<h1> Quick Links:</h1>
+<h1>Quick Links:</h1>
+
+
+<!-- Start MODAL -->
+
+
+
+<button id="fbtn">Click here to discover a fact about Horsham</button>
+
+
+<div id="fmodal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h1>A fact about Horsham:</h1>
+    <p>
+      Horsham holds the UK record for the heaviest hailstone ever to fall. On 5 September 1958, a hailstone weighing 140g (4.9 oz) landed in the town. It was similar in size to a tennis ball and impact speeds have been calculated to be 100 m/s (224 mph).
+    </p>
+  </div>
 
 </div>
+
+<script>
+
+var modal = document.getElementById("fmodal");
+
+var btn = document.getElementById("fbtn");
+
+var span = document.getElementsByClassName("close")[0];
+
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</div>
+
+<!-- End MODAL -->
+
+
+
+
+
+</div>
+
 
 <div id="gitimg" align="center">
 <a href="https://github.com/Alfster23"><img src="GitHub-Mark-32px.png"></a>
 </div>
 
-</div>
 
 
 </body>
