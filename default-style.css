@@ -42,10 +42,19 @@ a:hover {
 	color: #0046FF;
 }
 
+html {
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-top: 0;
+}
 
 body {
-	margin: 0;
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 0;
 	margin-top: 0;
+	width: auto;
 }
 
 /* All styles for DESKTOP NAVIGATION */
@@ -152,10 +161,16 @@ ul.desktop-navigation li a:hover {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 25px;
-  margin-left: 50px;
+  font-size: 15px;
   z-index: inherit;
 }
+
+.quick-links #fbtn:hover,
+.quick-links #fbtn:focus {
+	cursor: pointer;
+}
+
+
 
 
 .quick-links .modal {
@@ -187,7 +202,6 @@ ul.desktop-navigation li a:hover {
   margin: none;
   width: auto;
 	display: inline-block;
-
 }
 
 
@@ -219,6 +233,19 @@ ul.desktop-navigation li a:hover {
 /* End Modal popup */
 
 
+.quick-links ul {
+	list-style-type: none;
+	list-style: none;
+	margin-top: 0 0 0 0;
+}
+
+.quick-links li {
+	margin: 10px;
+	font-family: "lato", sans-serif;
+	font-size: auto;
+}
+
+
 .logo {
 	width: 400px
 }
@@ -240,9 +267,11 @@ ul.desktop-navigation li a:hover {
 
 .quick-links {
 	width: 100%;
-	height: 300px;
+	height: auto;
 	background-color: #333;
-	margin-top: 0;
+	margin-top: 0px;
+	padding-bottom: 20px;
+	padding-top: 10px;
 }
 
 .quick-links h1 {
@@ -251,11 +280,10 @@ ul.desktop-navigation li a:hover {
 	padding-top: 15px;
 	float: left;
 	margin-top: 0;
+	width: 100%;
 }
 
-#gitimg {
-	background-color: #333;
-	padding-bottom: 20px;
+.quick-links #gitimg {
 	padding-top: 40px;
 }
 
