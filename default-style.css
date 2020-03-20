@@ -148,6 +148,61 @@ ul.desktop-navigation li a:hover {
 /* End MOBILE NAVIGATION */
 
 
+.tcontent {
+	width: 100%;
+}
+
+.tcontent td {
+	width: 45%;
+	font-family: "lato", sans-serif;
+}
+
+.tcontent a {
+	text-decoration: none!important;
+	color: black!important;
+}
+
+.tcontent p {
+	text-align: left;
+}
+
+
+
+
+
+.top-left-box {
+	width: 45%;
+	background-color: red;
+	height: 100px;
+	z-index: 0;
+	padding: 0;
+	margin: 0;
+}
+
+.top-right-box {
+	width: 45%;
+	background-color: blue;
+	height: 100px;
+	z-index: 0;
+}
+
+.bottom-left-box {
+	width: 45%;
+	background-color: orange;
+	height: 100px;
+	z-index: 0;
+}
+
+.bottom-right-box {
+	width: 45%;
+	background-color: green;
+	height: 100px;
+	z-index: 0;
+}
+
+
+
+
 
 
 /* Start Modal popup */

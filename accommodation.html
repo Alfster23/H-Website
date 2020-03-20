@@ -82,6 +82,93 @@ function resize()
 
 </div>
 
+<div class="footer">
+
+<hr>
+
+
+<div class="map">
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20057.36127906865!2d-0.33771865688385283!3d51.068408859983066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4875930bdbd6edbf%3A0xd07b2d1bec20416b!2sHorsham!5e0!3m2!1sen!2suk!4v1584439356029!5m2!1sen!2suk" width="100%"; height="280px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+</div>
+
+<div class="quick-links">
+
+<h1>Quick Links:</h1>
+
+
+
+
+<!-- Start MODAL -->
+
+<ul>
+
+<li><a href="index.html">Home</a></li>
+<li><a href="events.html">Events</a></li>
+<li><a href="places.html">Places to Visit</a></li>
+<li><a href="things.html">Things to Do</a></li>
+<li><a href="dining.html">Dining</a></li>
+<li><a href="accommodation.html">Accommodation</a></li>
+<li><a href="disclaimer.html">Disclaimer</a></li>
+<li><a href="https://github.com/Alfster23/HWEBSITE">View this project on GitHub</a></li>
+<li>
+
+
+
+<button id="fbtn">Click to see the latest promotion:</button>
+
+
+<div id="fmodal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h1>Latest promotion:</h1>
+    <p>
+    Accommodation in Horsham is currently cheaper than normal - due to Coronavirus (COVID-19) Outbreak. <a href="accommodation.html">Click here</a> to view accommodation options.
+    </p>
+  </div>
+
+</div>
+
+<script>
+
+var modal = document.getElementById("fmodal");
+
+var btn = document.getElementById("fbtn");
+
+var span = document.getElementsByClassName("close")[0];
+
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</li>
+</ul>
+
+<!-- End MODAL -->
+
+
+
+<div id="gitimg" align="center">
+<a href="https://github.com/Alfster23"><img src="GitHub-Mark-32px.png"></a>
+</div>
+
+</div> <!-- end quick links -->
+
+</div> <!-- end footer -->
 
 
 </body>
