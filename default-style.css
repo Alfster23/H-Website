@@ -140,8 +140,8 @@ ul.desktop-navigation li a:hover {
   background-color: #0077CD;
   color: #0077CD;
 	height: 80px;
-	width: 91%;
-	z-index: 2;
+	width: 100%;
+	z-index: 0;
 }
 
 /* End MOBILE NAVIGATION */
@@ -352,6 +352,9 @@ ul.desktop-navigation li a:hover {
       .mobile-navigation {
         display: none;
       }
+			.topnav {
+				display: none;
+			}
 			.mobile-content{
 				display: none;
 			}
@@ -367,6 +370,9 @@ ul.desktop-navigation li a:hover {
       .mobile-navigation {
         display: block;
       }
+			.topnav {
+				display: block;
+			}
 			.mobile-content {
 				display: block;
 			}

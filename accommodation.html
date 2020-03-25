@@ -51,17 +51,38 @@ function resize()
 
 
 
-<div class="mobile-navigation">
-  <button class="dropbtn">Dropdown</button>
-  <div class="dropdown-content">
+
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <div class="mob-bar"></div>
+  <div id="links">
     <a href="index.html">Home</a>
     <a href="events.html">Events</a>
-    <a href="places.html">Places to visit</a>
-    <a href="things.html">Things to do</a>
+    <a href="places.html">Places to Visit</a>
+    <a href="things.html">Things to Do</a>
     <a href="dining.html">Dining</a>
     <a href="accommodation.html">Accommodation</a>
   </div>
+
+
+  <a href="javascript:void(0);" class="menu-icon" onclick="myFunction()"><img src="ham-menu.png" width="50px"></a>
+
 </div>
+
+
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("links");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+
 
 
 
