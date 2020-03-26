@@ -248,22 +248,21 @@ ul.desktop-navigation li a:hover {
   padding: 20px;
   border: 1px solid #888;
   width: 80%;
+	display: block;
 }
 
 
 .quick-links .modal-content h1 {
 	color: #0077CD;
   margin: none;
-  width: auto;
-	display: inline-block;
+  width: 80%;
 }
 
 
 .quick-links .modal-content p {
   background-color: #b3b3b3;
   margin-left: 10px;
-  width: auto;
-	display: inline-block;
+  width: 80%;
 	text-align: left;
 }
 
